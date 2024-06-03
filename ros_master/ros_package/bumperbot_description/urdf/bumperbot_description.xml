@@ -153,8 +153,7 @@
         <child link="caster_rear_link"/>
         <origin rpy="0 0 0" xyz="-0.0475 0 -0.0275"/>
     </joint>
-
-
+    
     <!-- <link name="can_link">
         <visual>
             <geometry>
@@ -169,5 +168,4 @@
         <child link="can_link"/>
         <origin rpy="1.57 0 0" xyz="-0.03 0.03 0.078"/>
     </joint> -->
-
 </robot>

@@ -12,7 +12,7 @@ services:
     build:
       context: ./ros_master
       dockerfile: Dockerfile
-    container_name: ros_noetic
+    container_name: ros_noetic_bumperbot
     restart: always
     volumes:
       - ./ros_master/ros_package:/ros_ws/src
